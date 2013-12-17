@@ -1,6 +1,6 @@
 {
   "name": "grunt-asset-revision",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Get assets hash",
   "main": "Gruntfile.js",
   "scripts": {
@@ -21,9 +21,10 @@
   "bugs": {
     "url": "https://github.com/uorbe001/grunt-asset-revision/issues"
   },
-  "devDependencies": {
+
+  "dependencies": {
     "MD5": "~1.2.0",
-    "grunt": "~0.4.2",
-    "dirsum": "~0.1.1"
+    "dirsum": "~0.1.1",
+    "grunt": "~0.4.2"
   }
 }
